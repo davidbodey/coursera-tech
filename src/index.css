@@ -1,0 +1,194 @@
+body {
+    margin-right: 15%;
+    margin-left: 15%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-burger {
+    color: blue;
+    position: fixed;
+}
+
+.navbar-burger span {
+    height: 3px;
+    width: 50px;
+    position: relative;
+    top: 30px;
+}
+
+.App {
+    color: black;
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+}
+
+@media screen and (min-width: 769px) {
+    .vertical-line {
+        border-left: 2px solid rgba(0,0,0,0.2);
+        height: 300px;
+    }
+
+    .extended {
+        width:35vw;
+        position: relative;
+        left: -2vw;
+    }
+
+    .column {
+        max-width: 45%;
+    }
+
+    .navbar-item {
+        align-items: center;
+        display: flex;
+        flex-basis: auto;
+        flex-grow: 1;
+        flex-shrink: 0;
+        justify-content: space-around;
+        max-width: 166px;
+        margin-right: 3.45%;
+    }
+
+    .first-navbar-item {
+        position: relative;
+        left: 12.3%;
+    }
+
+    .last-navbar-item {
+        position: relative;
+        right: 21%;
+    }
+
+    .horizontal-half-line {
+        width: 50%;
+    }
+
+    .tab:hover {
+        font-weight: bold !important;
+        color: black !important;
+    }
+
+    .button:hover {
+        color: whitesmoke;
+    }
+
+    .hero-main {
+        left: 159px;
+    }
+
+    .is-picked {
+        border-bottom-color: rgb(54,124,204);
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+    }
+
+    .footer {
+        padding: 150px !important;
+    }
+
+    .footer-button {
+        width: 20vw !important;
+    }
+
+    .circles {
+        position: relative;
+        top: 174px;
+        left: 100px;
+    }
+}
+
+.footer {
+    text-align: center;
+}
+
+body {
+    margin-top: 195px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 69px;
+    -webkit-box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.34);
+    box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.34);
+    margin-bottom: 100px;
+}
+
+.nav-button {
+    position: absolute;
+    top:3px;
+    right:1vw;
+    font-family: 'Open Sans', 'sans-serif' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px !important;
+    padding: 30px 38px 30px 38px;
+    color: white;
+    justify-content: center;
+}
+
+.footer-button {
+    font-family: 'Open Sans', 'sans-serif' !important;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 50px 100px;
+    width: 90vw;
+}
+
+.hero-h1 {
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    letter-spacing: -0.015em;
+    padding-bottom: 100px;
+}
+
+.padding-bottom-100 {
+    padding-bottom: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.slender {
+    max-width: 200px;
+}
+
+.horizontal-line {
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+.has-text-weight-600 {
+    font-weight: 600 !important;
+}
+
+.has-text-weight-700 {
+    font-weight: 700 !important;
+}
+
+.button {
+    background: #0056D2;
+    border-radius: 2px;
+    color: white;
+}
+
+.grayish {
+    background-color: rgb(245,247,248);
+}
+
+.footer {
+    position: absolute;
+    left: 0px !important;
+}
+
+.edge-to-edge {
+    width: 100vw;
+}
